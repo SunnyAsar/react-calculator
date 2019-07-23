@@ -16,10 +16,8 @@ code {
   display: flex;
   width: 70%;
   margin: auto;
-  /* background: green; */
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 #display #button-pannel #button-panel{
   display: flex;

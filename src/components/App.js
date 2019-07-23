@@ -10,7 +10,7 @@ class App extends Component {
       total: '0',
       next: '0',
       operation: '',
-      isShowingResult: false
+      showResult: false
     }
   }
 
