@@ -11,9 +11,6 @@ const style = {
     <button style={style}>{props.name}</button>
   )
 }
-Button.defaultProps = {
-  name: 'Button'
-}
 
 Button.prototype = {
 name: PropTypes.String

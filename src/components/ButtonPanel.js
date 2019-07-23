@@ -14,7 +14,7 @@ function ButtonPanel (props) {
         <Button name='7' color={grey}/>
         <Button name='8' color={grey}/>
         <Button name='9' color={grey}/>
-        <Button name='X' />
+        <Button name='X'/>
       </div>
       <div className="row">
         <Button name='4' color={grey}/>
@@ -28,10 +28,10 @@ function ButtonPanel (props) {
         <Button name='3' color={grey}/>
         <Button name='+'/>
       </div>
-      <div className="row bar">
-        <Button name='0' wide width={'50%'} color={grey}/>
+      <div className="row">
+        <Button name='0' wide color={grey}/>
         <Button name='.' color={grey}/>
-        <Button name='=' />
+        <Button name='='/>
       </div>
     </div>
   )
