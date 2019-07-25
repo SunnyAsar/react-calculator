@@ -10,6 +10,6 @@ Display.defaultProps = {
 }
 
 Display.propTypes = {
-  result: PropTypes.string
+  result: PropTypes.string.isRequired
 }
 export default Display
