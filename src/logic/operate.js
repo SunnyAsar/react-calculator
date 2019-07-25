@@ -6,6 +6,7 @@ function operate (numberOne, numberTwo, operation) {
     case '-':
       return subtract(numberOne, numberTwo)
     case '/':
+      if (numberTwo === '0') return 'what?....'
       return divide(numberOne, numberTwo)
     case 'x':
       return multiply(numberOne, numberTwo)
