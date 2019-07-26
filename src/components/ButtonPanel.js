@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from './Button'
+
 const grey = 'rgb(224, 224, 224)'
+
 function ButtonPanel (props) {
   return (
     <div id='button-panel'>

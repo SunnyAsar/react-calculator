@@ -12,8 +12,10 @@ function Button (props) {
   )
 }
 
-Button.prototype = {
-  name: PropTypes.String
+Button.propTypes = {
+  name: PropTypes.string.isRequired,
+  color: PropTypes.string.isRequired,
+  wide: PropTypes.bool.isRequired
 }
 
 export default Button
